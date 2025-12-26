@@ -5,27 +5,28 @@
 ![Database](https://img.shields.io/badge/DB-SQL%20Server-red)
 ![Security](https://img.shields.io/badge/Security-Protected-blue)
 
-**ROOM207** is a robust Hotel Management System backend. It provides a RESTful API to manage hotel operations including guest registration, room availability, and booking management using Python and SQL Server.
+**ROOM207** is a database-driven project that demonstrates database design,
+SQL queries execution, and frontend interaction.
+It includes ER diagrams, mapping, SQL scripts, and a Jupyter notebook for database connection and testing.
 
 ## 🚀 Key Features
-- **Guest Management:** Full CRUD operations for managing guest profiles.
-- **Room Tracking:** Real-time monitoring of room status and categories.
-- **Secure Database Connection:** Uses `pyodbc` with environment variables for secure SQL Server integration.
-- **CORS Enabled:** Ready to be connected with any Frontend framework (React, Vue, etc.).
+- 📊 Well-structured ER Diagram representing the database entities and relationships
+- 🔄 ER to Relational Mapping following database design rules
+- 🧾 Comprehensive Data Dictionary for tables and attributes
+- 🛠️ SQL Queries for data retrieval and manipulation
+- 🔐 Secure database connection using environment variables
+- 🖥️ Simple frontend interface for interacting with the database
+- 📁 Organized project structure for easy navigation and maintenance
+
 
 ## 🛠 Tech Stack
-- **Framework:** Flask
-- **Language:** Python 3.x
-- **Database:** Microsoft SQL Server
-- **Driver:** pyodbc (ODBC Driver 17)
-- **Environment Management:** python-dotenv
+- **Database:** MySQL  
+- **Query Language:** SQL  
+- **Backend / Connection:** Python (Jupyter Notebook)  
+- **Frontend:** HTML  
+- **Environment Management:** `.env` file  
+- **Tools:** Git, GitHub  
 
-## 📦 Installation & Setup
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/rowannhussein86/ROOM207-.git](https://github.com/rowannhussein86/ROOM207-.git)
-   cd ROOM207-
 
 ## 📂 Project Structure
 
@@ -44,3 +45,8 @@ ROOM207/
 ├── .env                     # Environment variables (local only)
 └── .gitignore               # Files excluded from version control
 ```
+## ER Diagram
+![ER Diagram](https://img.shields.io/badge/Status-Development-green)
+
+## Mapping
+![Mapping](https://img.shields.io/badge/Status-Development-green)
