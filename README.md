@@ -44,6 +44,3 @@ ROOM207/
 ├── .env                     # Environment variables (local only)
 └── .gitignore               # Files excluded from version control
 ```
-
-├── requirements.txt    # Project dependencies
-└── README.md           # Project documentation
