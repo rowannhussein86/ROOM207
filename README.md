@@ -28,9 +28,22 @@
    cd ROOM207-
 
 ## 📂 Project Structure
+
+```bash
 ROOM207/
-├── app.py              # Main Flask application & API routes
-├── .env                # (Local only) Sensitive database credentials
-├── .gitignore          # Files to be excluded from GitHub
+│
+├── ER_Diagram/              # Entity Relationship Diagram
+├── Mapping/                 # ER to Relational Mapping
+├── Queries/                 # SQL queries
+│   ├── SQLQuery1.sql
+│   ├── SQLQuery2.sql
+│   └── SQLQuery3.sql
+├── templates/               # HTML templates
+│   └── Frontend.html
+├── connection.ipynb         # Database connection & testing notebook
+├── .env                     # Environment variables (local only)
+└── .gitignore               # Files excluded from version control
+```
+
 ├── requirements.txt    # Project dependencies
 └── README.md           # Project documentation
