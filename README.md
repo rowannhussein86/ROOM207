@@ -1,4 +1,4 @@
-# 🏨 ROOM207 - Hotel Management System (Backend)
+# 🏨 ROOM207 - Hotel Management System
 
 ![Project Status](https://img.shields.io/badge/Status-Development-green)
 ![Backend](https://img.shields.io/badge/Backend-Flask-lightgrey)
