@@ -8,10 +8,13 @@
   <img src="https://img.shields.io/badge/Frontend-HTML%2FCSS-blue" alt="Frontend">
 </p>
 
+---
 
 **ROOM207** is a database-driven project that demonstrates database design,
 SQL queries execution, and frontend interaction.
 It includes ER diagrams, mapping, SQL scripts, and a Jupyter notebook for database connection and testing.
+
+---
 
 ## 🚀 Key Features
 -  Well-structured ER Diagram representing the database entities and relationships
@@ -22,6 +25,7 @@ It includes ER diagrams, mapping, SQL scripts, and a Jupyter notebook for databa
 -  Simple frontend interface for interacting with the database
 -  Organized project structure for easy navigation and maintenance
 
+---
 
 ## 🛠 Tech Stack
 - **Database:** SQL Server  
@@ -30,6 +34,7 @@ It includes ER diagrams, mapping, SQL scripts, and a Jupyter notebook for databa
 - **Frontend:** HTML , css , js  
 - **Environment Management:** `.env` file  
 
+---
 
 ## 📂 Project Structure
 
@@ -48,13 +53,20 @@ ROOM207/
 ├── .env                     # Environment variables (local only)
 └── .gitignore               # Files excluded from version control
 ```
+
+---
+
 ## ER Diagram
 The ER Diagram above illustrates the main entities of the ROOM207 system and their relationships. Each table, primary key, and foreign key is clearly represented.
 ![ER Diagram](ER_Diagram/ER_Diagram.drawio.png)
 
+---
+
 ## Mapping
 The Relational Mapping diagram shows how the ER Diagram entities are converted into SQL tables, including table names, columns, and relationships between them.
 ![Mapping](Mapping/Mapping_ROOM207.drawio.png/)
+
+---
 
 ## ⚙️ How to Run
 
@@ -71,6 +83,8 @@ Open connection.ipynb and run the cells to establish a connection with the SQL S
 
 ### 4-Run SQL queries
 Execute the provided SQL queries either directly in SQL Server or through the Jupyter Notebook to interact with the database.
+
+---
 
 ## 🖼️ Frontend Preview
 ![Frontend UI](images/Frontend.png)
